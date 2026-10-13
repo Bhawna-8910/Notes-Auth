@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Python virtual environment
+venv/
+
+# Excluded from repository as requested
+src/middleware/
+src/models/Note.js
