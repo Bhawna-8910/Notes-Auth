@@ -7,6 +7,4 @@ node_modules/
 # Python virtual environment
 venv/
 
-# Excluded from repository as requested
-src/middleware/
-src/models/Note.js
+
