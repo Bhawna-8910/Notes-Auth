@@ -3,7 +3,7 @@ const dotenv = require('dotenv');
 dotenv.config(); //loading env variables before importing app/db
 
 const app = require('./src/app');
-const connectDb = require('./src/config/db');
+const connectDB = require('./src/config/db');
 
 const PORT = process.env.PORT || 5000;
 
