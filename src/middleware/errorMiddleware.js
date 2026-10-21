@@ -28,9 +28,9 @@ const errorHandler = (err, req, res, next) => {
     }
 
     res.status(statusCode).json({
-        success : false,
-        message,
-        ...errorHandler(process.env.NODE_ENV !== 'production' && {stack : err.stack}), ///only reveal stack traces during local development
+    success: false,
+    message,
+    ...(process.env.NODE_ENV !== 'production' && { stack: err.stack }), //only reveal stack traces during local development
     });
 };
 
